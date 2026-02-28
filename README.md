@@ -30,7 +30,7 @@ If you want your generated site instead, deploy the generated folder contents (`
 ## Vercel routing fix for repeated URL paths
 
 If someone opens a malformed URL like `/https://crispy-stank-fart.vercel.app/...`, Vercel can return 404 by default.
-This repo includes `vercel.json` with a catch-all rewrite so any path resolves to `/index.html`.
+This repo includes `vercel.json` with explicit static builds (`index.html`, `styles.css`, `app.js`), a filesystem route, and a catch-all fallback to `/index.html`.
 
 ## Test
 
