@@ -99,7 +99,8 @@ Generated with **catweb_generator.py**.
 
 ## Run
 
-Open `index.html` directly in your browser.
+- Local: open `index.html` directly in your browser.
+- Microsoft Edge (no install): publish the folder to GitHub Pages and open its URL in Edge.
 """
 
 
